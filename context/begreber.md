@@ -44,6 +44,20 @@ Bruges til at fordele ejerskab ved overdragelsen.
 | fortsaet | Vender tilbage til noget, de allerede ser |
 | ukendt | |
 
+### 5. Brugssituation (udkast, ikke afstemt)
+Hvad der skal afkodes og forstås, afhænger af, hvorfor brugeren er på siden. Spejles i Lucid-rammen "Brugssituationer på programsiden".
+
+| Id | Brugerens spørgsmål | Typisk indgang | Kilder (01) |
+|---|---|---|---|
+| udforske | "Er det her noget for mig?" | Forside, anbefaling, søgning | #1, #17, K16 |
+| fortsaette | "Hvor kom jeg til?" | Se videre | #19, #32, K16 |
+| tjekke-nyt | "Er der kommet et nyt afsnit? Hvornår kommer det næste?" | Direkte, Min liste | #4, #23, #26 |
+| glaede-sig | "Hvornår kommer det, og hvordan bliver jeg mindet om det?" | Kommer snart, trailer, mail | #2, #3, #7, #34 |
+| se-live | "Hvornår starter det, og hvad sker der, hvis jeg trykker nu?" | Live-TV, hero | Egne hypoteser |
+| lande-direkte | "Hvorfor er jeg her, og hvad kan jeg?" | Mail, SoMe, Google | #8, K11 |
+
+Adgang ("Kan jeg se det, og hvor længe?") går på tværs af alle situationer.
+
 ## Matrix: spørgsmål × niveau
 Eksempler på, hvad et problem ser ud som i hver celle.
 

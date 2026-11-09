@@ -17,8 +17,15 @@ Spørgsmålene bruger OKR'ens egne ord og læses sådan:
 
 > **Forslag til workshoppen:** "Indholdet" omfatter også adgang (`adgang`). Det er det mest dokumenterede problem i 01, og uden det overser vi den største kendte kilde til forkert forståelse.
 
-## Primært spørgsmål
-**Hvor godt hjælper programsiderne brugerne med at afkode og forstå indholdet?**
+## Overordnede spørgsmål
+KR 1 bygger på "eksisterende viden på tværs af huset og nye kvalitative indsigter". Derfor er der to spor med hvert sit overordnede spørgsmål:
+
+| Spor | Overordnet spørgsmål | Delspørgsmål | Kilder |
+|---|---|---|---|
+| **HS1: Internt** | **Hvad ved vi, og hvad antager vi, internt om brugernes behov for at afkode og forstå programsiderne?** | RQ0a, RQ11-16 | Indsigtsoversigt (01), workshop, UX-vidensdeling, data |
+| **HS2: Brugerne** | **Hvor godt hjælper programsiderne brugerne med at afkode og forstå indholdet?** | RQ0b, RQ1-10 | Nye kvalitative sessioner |
+
+I HS1 skelnes der mellem det, vi **ved** (evidens A/B), og det, vi **antager** (evidens C, fx workshop-antagelser og egne screenshot-hypoteser). HS2 afprøver de vigtigste antagelser fra HS1. Det er derfor, workshoppen kommer før sessionerne.
 
 ## Delspørgsmål
 
@@ -61,13 +68,15 @@ De her spørgsmål besvares uden nye sessioner og dækker den del af KR 1, der h
 
 | # | Spørgsmål | Hvorfor (hul fra 01) | Svares via | Ejer at spørge |
 |---|---|---|---|---|
+| RQ15 | Hvad **antager** PCS-teamet om, hvor godt brugerne kan afkode og forstå programsiderne, og hvilke af antagelserne er vi mest usikre på? | Teamets viden er ikke dokumenteret nogen steder. Eneste antagelser indtil nu er mine egne screenshot-hypoteser (C) i [programsider.md](../context/programsider.md). | Workshop "Hvad tror vi, brugerne forstår?" (antagelser + 2×2: vigtig × sikker) | PCS-teamet / Mette-Sofie Kam |
+| RQ16 | Hvad **ved** vi fra tidligere undersøgelser om brugernes oplevelse af programsiden i forhold til deres evne til at afkode og forstå indholdet? | Kun få fund handler om selve programsiden (hul 5). UX'ernes viden er ikke samlet ét sted. | UX-vidensdeling (Leah, Marie-Louise, Jakob, øvrige), URR, Lucid-boards | UX'erne |
 | RQ11 | Hvad viser trailer-A/B-testen om trailerens betydning for engagement og afspilning på programsiden? | Hul 1: der findes et testdesign, men ingen resultater (K12) | Eksisterende | Mette-Sofie Kam |
 | RQ12 | Hvor mange kundeservicehenvendelser handler om adgang til konkret indhold, og hvad handler de om? | Hul 6: K09 nævner temaet uden tal | Eksisterende (kundeservice) | [udfyld] |
 | RQ13 | Hvordan kommer brugerne ind på programsiderne, og hvor mange afspiller efter et besøg? | Hul 7: tracking findes, men er ikke trukket ud | Analytics | D&I / PDL |
 | RQ14 | ~~Hvad viste "Andre så også"-testen?~~ **Besvaret** via Lucid (01 #28-31): genre-match driver relevans. Testen handler om playeren, ikke programsiden. | Hul 3 (K14) | Eksisterende | Steffen Klitlund Rauff |
 
 ## Prioritering
-0. **Begrebsafklaring:** RQ0a afklares på workshoppen og via UX-vidensdeling i uge 46. RQ0b følger med som åbne spørgsmål i sessionerne.
+0. **Begrebsafklaring og antagelser:** RQ0a og RQ15 afklares på workshoppen og via UX-vidensdeling i uge 46. RQ15's 2×2 (vigtig + usikker) bruges til at prioritere RQ1-10 før design. RQ0b følger med som åbne spørgsmål i sessionerne.
 1. **Adgang og beslutning:** RQ3, RQ5, RQ7, RQ9. Største kendte problem, aldrig testet på selve siden. Kan fungere som baseline for PL-1077.
 2. **Afkodning af serie og film:** RQ1, RQ2, RQ4, RQ6. Kernen i objektivet og helt uundersøgt.
 3. **Live og indgang:** RQ8, RQ10. Medtages, hvis tiden rækker. Ellers bliver de videnshuller ved overdragelsen.
@@ -78,24 +87,28 @@ RQ11-14 sættes i gang med det samme, fordi de ikke kræver rekruttering.
 Opdateres løbende, når der kommer nye kilder eller sessioner. Indsigts-numrene henviser til [01](01-eksisterende-indsigter.md) (evidens i parentes). Spejles i Lucid ("Sporing"-rammen).
 *Sidst opdateret: 2026-11-09.*
 
-| RQ | Spørgsmål (kort) | Prio | Aktiviteter | Indsigter indtil nu | Status |
-|---|---|---|---|---|---|
-| RQ0a | Hvad mener vi med afkode og forstå? | 1 | Workshop m. PM 9/11 · Leah 9/11 · øvrige UX'ere · begrebsområde i Lucid | Ingen kilde definerer ordene. Udkast i begreber.md | Åben |
-| RQ0b | Hvad skal brugerne selv forstå for at vælge? | 1 | Design (åbne spørgsmål) · sessioner | #1 skimmer tekst (A) · #17 serie frem for episode (B) · #28 genre driver relevans (B) | Delvist (indirekte) |
-| RQ1 | Afkoder de type og handlinger? | 2 | Workshop · design · sessioner | #5 collage-key art forvirrer (B) · #17 (B) | Hul |
-| RQ2 | Hvilke elementer afkoder relevans? | 2 | Confluence (titleart, labels) · workshop · sessioner | #1 (A) · #24 "Læs mere" (C) · #27 key art (B) | Delvist |
-| RQ3 | Afkoder de adgang, med og uden adgang? | 1 | Confluence (knaplogik) · rekruttering m/u adgang · sessioner | #15 "Sidste chance" forstås (A) · #20 overladt til sig selv (B) · #21 web ≠ app (C) | Hul på selve siden |
-| RQ4 | Forstår de hvad det er, og hvor sikre er de? | 2 | Workshop · sessioner | #2 trailers "genreafkoder" (B) · #10 genreord (B) | Hul |
-| RQ5 | Forstår de logoer, "kræver X" og udløb? | 1 | Confluence ("Sidste chance") · workshop · sessioner | #11 partnerbrands (B) · #13 live-begreber (A) · #16 én misforståelse (A) · #22 (C) | Delvist (uden for siden) |
-| RQ6 | Forstår de, hvor de er i en serie? | 2 | Workshop · sessioner | #4 snigpremiere (B) · #19 nyeste ≠ rigtige (A) · #23 (C) · #26 (C) | Delvist |
-| RQ7 | Fører siden til en korrekt beslutning? | 1 | Confluence (hurtig vej til playback) · sessioner | #18 serieindgang (A) · #19 (A) | Hul på selve siden |
-| RQ8 | Hjælper live-siden? | 3 | Sessioner (hvis tid) | #3 ønske om påmindelse (B) | Hul |
-| RQ9 | Forskel web vs. iOS? | 1 | Rekruttering · sessioner | #21 (C) + egne screenshots | Hul |
-| RQ10 | Forskel efter indgang? | 3 | Sessioner (scenarier) · analytics | #8 direkte fra mail (B) · #18 (A) | Delvist |
-| RQ11 | Hvad viste trailer-testen? | – | Spørg PM | Testdesign (K12), ingen resultater | Venter |
-| RQ12 | Hvad siger kundeservicedata om adgang? | – | Find ejer | #20 nævnt uden tal (B) | Venter |
-| RQ13 | Indgang og afspilning efter besøg? | – | D&I / PDL | #31 ASO-klik 1,7K vs. 4,8K (A) | Delvist |
-| RQ14 | Hvad viste "Andre så også"? | – | Lucid-board | #28-31 | Besvaret |
+| Spor | RQ | Spørgsmål (kort) | Prio | Aktiviteter | Indsigter indtil nu | Status |
+|---|---|---|---|---|---|---|
+| **HS1** | | **Internt: Hvad ved vi, og hvad antager vi, internt om brugernes behov for at afkode og forstå programsiderne?** | | | | |
+| HS1 | RQ0a | Hvad mener vi med afkode og forstå? | 1 | • Workshop m. PM 9/11<br>• Leah 9/11<br>• øvrige UX'ere<br>• begrebsområde i Lucid | Ingen kilde definerer ordene. Udkast i begreber.md | Åben |
+| HS1 | RQ15 | Hvad antager teamet om, hvor godt brugerne afkoder og forstår, og hvor er vi mest usikre? | 1 | • Workshop "Hvad tror vi, brugerne forstår?" 9/11<br>• 2×2-prioritering | 11 screenshot-hypoteser (C) i programsider.md | Åben |
+| HS1 | RQ16 | Hvad ved vi fra tidligere undersøgelser om brugernes evne til at afkode og forstå programsiden? | 1 | • Leah 9/11<br>• Marie-Louise og Jakob (svaret)<br>• øvrige UX'ere<br>• URR og Lucid-boards | #1, #2, #4 (K02) · #7-9 (K03) · #32 næste episode (C) · #33-35 Indholdsrelationer (C)<br>**Fortolkning: indholdsrelationer (C)**<br>**Afkode:** Brugeren kan kun aflæse det, der står på siden. Ligger sæsoner, trailere, bonusmateriale og resten af en franchise ikke dér, ser brugeren ikke, at det findes (#33-35).<br>**Forstå:** Relationerne giver kontekst, fx "del 2", "ny sæson på vej" eller "samme univers". Genre og univers er det, brugerne vurderer relevans ud fra (#28).<br>**Beslutte:** Siden skal støtte både at udforske og at fortsætte. Uden relationer mister brugeren overblikket over næste skridt.<br>**Årsag:** regel (PEI), ikke design. | Delvist |
+| HS1 | RQ11 | Hvad viste trailer-testen? | – | Spørg PM | Testdesign (K12), ingen resultater | Venter |
+| HS1 | RQ12 | Hvad siger kundeservicedata om adgang? | – | Find ejer | #20 nævnt uden tal (B) | Venter |
+| HS1 | RQ13 | Indgang og afspilning efter besøg? | – | D&I / PDL | #31 ASO-klik 1,7K vs. 4,8K (A) | Delvist |
+| HS1 | RQ14 | Hvad viste "Andre så også"? | – | Lucid-board | #28-31 | Besvaret |
+| **HS2** | | **Brugerne: Hvor godt hjælper programsiderne brugerne med at afkode og forstå indholdet?** | | | | |
+| HS2 | RQ0b | Hvad skal brugerne selv forstå for at vælge? | 1 | • Design (åbne spørgsmål)<br>• sessioner | #1 skimmer tekst (A) · #17 serie frem for episode (B) · #28 genre driver relevans (B) | Delvist (indirekte) |
+| HS2 | RQ1 | Afkoder de type og handlinger? | 2 | • Workshop<br>• design<br>• sessioner | #5 collage-key art forvirrer (B) · #17 (B) | Hul |
+| HS2 | RQ2 | Hvilke elementer afkoder relevans? | 2 | • Confluence (titleart, labels)<br>• workshop<br>• sessioner | #1 (A) · #24 "Læs mere" (C) · #27 key art (B) | Delvist |
+| HS2 | RQ3 | Afkoder de adgang, med og uden adgang? | 1 | • Confluence (knaplogik)<br>• rekruttering m/u adgang<br>• sessioner | #15 "Sidste chance" forstås (A) · #20 overladt til sig selv (B) · #21 web ≠ app (C) | Hul på selve siden |
+| HS2 | RQ4 | Forstår de hvad det er, og hvor sikre er de? | 2 | • Workshop<br>• sessioner | #2 trailers "genreafkoder" (B) · #10 genreord (B) | Hul |
+| HS2 | RQ5 | Forstår de logoer, "kræver X" og udløb? | 1 | • Confluence ("Sidste chance")<br>• workshop<br>• sessioner | #11 partnerbrands (B) · #13 live-begreber (A) · #16 én misforståelse (A) · #22 (C) | Delvist (uden for siden) |
+| HS2 | RQ6 | Forstår de, hvor de er i en serie? | 2 | • Workshop<br>• sessioner | #4 snigpremiere (B) · #19 nyeste ≠ rigtige (A) · #23 (C) · #26 (C) · #32 næste episode "underlig" (C) | Delvist |
+| HS2 | RQ7 | Fører siden til en korrekt beslutning? | 1 | • Confluence (hurtig vej til playback)<br>• sessioner | #18 serieindgang (A) · #19 (A) · #32 (C) | Hul på selve siden |
+| HS2 | RQ8 | Hjælper live-siden? | 3 | Sessioner (hvis tid) | #3 ønske om påmindelse (B) | Hul |
+| HS2 | RQ9 | Forskel web vs. iOS? | 1 | • Rekruttering<br>• sessioner | #21 (C) + egne screenshots | Hul |
+| HS2 | RQ10 | Forskel efter indgang? | 3 | • Sessioner (scenarier)<br>• analytics | #8 direkte fra mail (B) · #18 (A) | Delvist |
 
 ## Uden for scope
 - Forside, søgning og afspiller, undtagen som indgang til programsiden (RQ10)

@@ -19,6 +19,8 @@ Udfyldes med skill `programside-insight-inventory`.
 | K12 | Trailer POC: trailer på programsider (PL-763) | Mette-Sofie Kam (PCS) | Jun 2026 | A/B-testdesign. Ingen resultater på siden. | [PCS 6298534600](https://tv2cms.atlassian.net/wiki/spaces/PCS/pages/6298534600) |
 | K13 | Key art: Først til verdens ende + Manden i børneværelset | Steffen Klitlund Rauff (UX) | Aug 2025 | Survey, 100 resp. | [URR 5684985915](https://tv2cms.atlassian.net/wiki/spaces/URR/pages/5684985915) |
 | K14 | Andre-så-også: umodereret brugertest + Lucid-board "Genaktivering efter endt sening" | Steffen Klitlund Rauff (UX) | Dec 2025 - feb 2026 | Umodereret test (40 resp.), survey og adfærdsdata. Fund ligger i Lucid, ikke i Confluence. | [URR 5812224005](https://tv2cms.atlassian.net/wiki/spaces/URR/pages/5812224005), [Lucid](https://lucid.app/lucidspark/27ea7f2e-35b1-46f5-89e4-bd3fe89a0663/edit) |
+| K15 | Vidensdeling: Marie-Louise og Jakob (UX) | Marie-Louise, Jakob | 2026-11-09 | Henvendelse om vidensdeling. Ingen egen research om programsider. Videregiver feedback fra familie og venner. | Svar til skra, 2026-11-09 |
+| K16 | Lucid-board "Indholdsrelationer på Play" (PCS-initiativ) | Leah Ravn Sørensen, Mie Hedegaard Hansen, Mette-Sofie Kam m.fl. | ukendt | Problem pitch, use cases, designprincipper og OKR-udkast. Ingen brugerdata på boardet. | [Lucid](https://lucid.app/lucidspark/29997075-009b-45d2-a5ed-9dde74078e7a/edit) |
 
 ## Indsigter
 | # | Indsigt | Element | Spørgsmål | Niveau | Årsag | Evidens | Kilde-id |
@@ -54,8 +56,12 @@ Udfyldes med skill `programside-insight-inventory`.
 | 29 | Når anbefalinger krydser genregrænser (fx Krejlerkongen), afviser brugerne dem og mister tilliden til, at rækken er værd at kigge på | relateret | relevans | beslutte | regel | B | K14 |
 | 30 | Brugernes næste afspilning er oftest i samme genre. Efter magasiner og reality er den oftere i nye kategorier | relateret | relevans | beslutte | ukendt | A | K14 |
 | 31 | "Andre så også" får i gennemsnit ca. 1,7K daglige klik fra programsiden mod ca. 4,8K fra playeren | relateret | navigation | beslutte | ukendt | A | K14 |
+| 32 | Familie og venner oplever, at afviklingen af næste episode på seriesiderne er "underlig". Hvad der præcist opleves som underligt, er ikke afklaret | cta, saesoner | navigation | beslutte | ukendt | C | K15 |
+| 33 | Antaget use case: En bruger, der ser første film i en række, bliver ikke gjort opmærksom på, at toeren også er på Play | relateret | navigation | afkode | regel | C | K16 |
+| 34 | Antaget use case: En bruger går ind på en serie (fx Feltet), fordi der kommer en ny sæson, men kan ikke finde traileren | hero (trailer), saesoner | navigation | afkode | regel | C | K16 |
+| 35 | PEI er bygget op om enkeltstående indholdssider frem for relationer, så serier, nye sæsoner, trailere og bonusmateriale lever adskilt og kan ikke samles på programsiden | relateret, saesoner | navigation | afkode | regel | C | K16 |
 
-Indsigter, der ikke passer i akserne, tagges `andet` og tælles med i valideringen af modellen. **Andel `andet`: 0 af 31.** #13 og #14 handler om pakkevælger og købsflow, og #28-30 om anbefalinger efter afspilning i playeren, ikke programsiden. De passer alle i akserne.
+Indsigter, der ikke passer i akserne, tagges `andet` og tælles med i valideringen af modellen. **Andel `andet`: 0 af 35.** #13 og #14 handler om pakkevælger og købsflow, og #28-30 om anbefalinger efter afspilning i playeren, ikke programsiden. De passer alle i akserne.
 
 ## Mønstre på tværs
 - **Adgang er det mest dokumenterede problem, men det meste ligger uden for programsiden.** Fund om pakker, partnerbrands og live-begreber (#11, #13, #14) stammer fra landingpage, pakkevælger og købsflow. Selve programsiden mangler data fra brugere med for lav pakke. Den bedste kilde er #20, som er en problembeskrivelse uden tal.
@@ -65,6 +71,7 @@ Indsigter, der ikke passer i akserne, tagges `andet` og tælles med i validering
 - **Serie frem for episode.** Brugerne orienterer sig efter serien og deres egen progression (#17-19). Det understøtter "Afspil S#:E#" med watch state, men taler imod episodespecifik key art.
 - **Key art og tekst er vigtigste afkodningskilder** (#1, #5, #17, #27). Brugerne skimmer tekst for at beslutte. Det gør afkortningen (#24 og min hypotese) relevant.
 - **Live-programsider er næsten ikke undersøgt.** Ingen fund handler direkte om event-siden. "Påmind mig" efterspørges (#3) og findes på iOS, men ikke på web.
+- **Indholdsrelationer er en forudsætning for afkodning (fortolkning, C).** Brugeren kan kun afkode det, der er på siden. Mangler sæsoner, trailere, bonusmateriale og franchise, ser brugeren ikke, at det findes (#33-35). Relationerne giver kontekst, fx "del 2", "ny sæson på vej" eller "samme univers", og genre og univers er det, brugerne vurderer relevans ud fra (#28). Uden relationer mister brugeren overblikket over næste skridt, både når hun vil udforske, og når hun vil fortsætte. Årsagen er `regel` (PEI), ikke design. → RQ16
 - **Konflikt:** K07 konkluderer "alle 12 forstår", men ét af de citerede svar er en misforståelse (#16). Begge dele beholdes.
 
 ## Huller i eksisterende viden
@@ -78,6 +85,7 @@ Input til [02-researchspoergsmaal.md](02-researchspoergsmaal.md).
 6. **Kundeservicedata om programsider.** K09 nævner abonnementsopsætning som et hyppigt tema, men uden tal eller kilde.
 7. **Analytics fra programsiden.** Besøg, indgang og afspilning efter besøg. Tracking findes (fx Adobe-workspaces i K08), men er ikke trukket ud.
 8. **Ikke læst endnu.** "Details Page cta Buttons + hints + action states" (PCS 5297734121), "Details page: Wish list for future" (PCS 5360713852), "Labels: Sidste chance" (PDL 5658740107), "Hero: Titleart" (PDL 5657952257), "Kommer snart: Fokus på titlen" (PDL 5659689670), "Mini-hero splittest" (PDL 6476300320), "Hurtig vej til playback" (PDL 5547655219) og URR-arkivsiderne for 2020-2024.
+9. **Resultater fra "Indholdsrelationer på Play" (K16).** OKR-udkastet havde som KR at finde 5-10 indsigter fra redaktører og brugere og at kortlægge use cases ud fra usability-tests. Hvis det er gennemført, ligger resultaterne ikke på boardet. Spørg Leah.
 
 ### Spor fra PMX canon (K01), der ikke er indsigter endnu
 PMX canon indeholder ingen dokumenterede brugerindsigter om programsider. Kilden indeholder kun planlagte KR'er. Resultaterne skal findes i Confluence eller Jira:
