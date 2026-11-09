@@ -28,6 +28,6 @@ Kilde: slides om trailer-POC'en, delt 2026-11-09. Ejer og link: ukendt. Opfølgn
 4. **Programsiden er en indgang før premiere.** Brugerne søger ca. to uger før, og jo længere siden er søgbar, jo flere klik.
 
 ## Anbefaling
-- Test Jacobs proxy på POC-data: Stopper trailergruppen færre afspilninger tidligt end kontrolgruppen (K18, videnshul #3)? → RQ11, RQ13
+- Test Jacobs proxy på POC-data: Stopper trailergruppen færre afspilninger tidligt end kontrolgruppen (K18, videnshul #3)? → RQ11
 - Bed om et separat resultat for desktop-web og iOS og om signifikanstest af de nye Adobe-tal. → RQ11
 - I sessionerne: Spørg, hvad brugeren forventer, før og efter traileren. → RQ2, RQ4

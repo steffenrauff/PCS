@@ -2,6 +2,20 @@
 
 Nyeste øverst. Én beslutning pr. afsnit.
 
+## 2026-11-09: RQ12-14 fjernes
+- **Kontekst:** RQ12 (kundeservicedata om adgang), RQ13 (indgang og afspilning efter besøg, tidlige stop) og RQ14 ("Andre så også", allerede besvaret).
+- **Beslutning:** Spørgsmålene er fjernet fra [02](../research/02-researchspoergsmaal.md), opgaverne og sporingstabellen i Lucid.
+- **Begrundelse:** [udfyld]
+- **Konsekvens:** Opgaven "Find ejere til RQ12 og RQ13" er droppet. Tidlige stop som proxy for forventningsafstemning (K18) hænger nu kun på RQ11.
+- **Kilde:** Aftalt i chat 2026-11-09.
+
+## 2026-11-09: PM og UX er enige i definitionen af "afkode og forstå"
+- **Kontekst:** Definitionen i [begreber.md](begreber.md) var et udkast (RQ0a).
+- **Beslutning:** PM og UX er enige i definitionen: afkode → forstå → beslutte, hvor målet er at reducere brugerens usikkerhed om programmet.
+- **Begrundelse:** Giver et fælles grundlag for tagging, interviewguide og syntese.
+- **Konsekvens:** begreber.md er ikke længere et udkast for grundidé og akser 1-4. Brugssituation (afsnit 5) og fasen "efter afspilning" er stadig åbne.
+- **Kilde:** PM og UX 2026-11-09.
+
 ## 2026-11-09: Nedslagsområder til brugertest
 - **Kontekst:** Sessionerne skal dække de mest typiske serieformater inden for det nye scope.
 - **Beslutning:** Vi tester fire typer programsider: en fiktionsserie som "Den som dræber", en VODcast (Mogensen & Christiansen), et underholdningsprogram (Simon siger) og en programside med trailer.

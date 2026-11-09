@@ -2,7 +2,7 @@
 
 Fælles definition, som al research og tagging bygger på.
 
-**Status:** Udkast. Afstemmes med UX og teamet på en workshop med 3-4 rigtige programsider. Den endelige version logges i [beslutninger.md](beslutninger.md).
+**Status:** Definitionen af "afkode og forstå" (grundidé, niveauer og tagging-akser 1-4) er afstemt med PM og UX 2026-11-09, se [beslutninger.md](beslutninger.md). Brugssituation (afsnit 5) og fasen "efter afspilning" er stadig åbne.
 
 ## Grundidé
 En programside lykkes, når brugeren hurtigt og korrekt kan **beslutte** noget: se nu, gemme, fortsætte eller gå videre. At afkode og forstå er midlet. Beslutningen er målet.
