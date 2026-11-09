@@ -16,6 +16,7 @@ Platforme: desktop-web og iOS-app er bekræftet og i scope (se [beslutninger.md]
 | Live: nedtælling | Lille, ved CTA | Stor, midt i hero |
 
 ## Varianter
+**Scope (beslutning 9/11):** Fokus på serier med låst contentID. Live-events er uden for scope, og enkeltstående program er nedprioriteret.
 | Variant | Eksempel | Særlige elementer |
 |---|---|---|
 | Serie | Forræder UK (reality, 5 sæsoner) | Sæsonvælger, episodeliste, "Afspil S#:E#" |

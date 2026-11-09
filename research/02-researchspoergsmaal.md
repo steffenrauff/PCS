@@ -13,7 +13,8 @@ Spørgsmålene bruger OKR'ens egne ord og læses sådan:
 | **forstå** | Danner brugeren et korrekt billede, og hvor sikker er brugeren? | niveau `forstaa` + korrekthed/sikkerhed |
 | **hjælper** | Fører afkodning og forståelse til en sikker og korrekt beslutning (se, gem, gå videre)? | niveau `beslutte` |
 | **indholdet** | Hvad det er, om det er noget for mig, om og hvordan jeg kan se det, og hvor jeg starter | spørgsmål `hvad`, `relevans`, `adgang`, `navigation` |
-| **programsiderne** | Serie, enkeltstående program og live-event på desktop-web og iOS | [../context/programsider.md](../context/programsider.md) |
+| **programsiderne** | Serier med låst contentID på desktop-web og iOS. Live-events er uden for scope, og enkeltstående indhold er nedprioriteret (beslutning 9/11) | [../context/programsider.md](../context/programsider.md) |
+| **(ramme)** | Programcyklus: før, under og efter afspilning (beslutning 9/11) | fase i [begreber.md](../context/begreber.md) |
 
 > **Forslag til workshoppen:** "Indholdet" omfatter også adgang (`adgang`). Det er det mest dokumenterede problem i 01, og uden det overser vi den største kendte kilde til forkert forståelse.
 
@@ -34,7 +35,7 @@ Disse spørgsmål kommer først, fordi resten bygger på dem. RQ0a handler om, h
 
 | # | Spørgsmål | Dimension | Hvorfor (hul fra 01) | Svares via | Prioritet |
 |---|---|---|---|---|---|
-| RQ0a | Hvad mener vi i PCS-teamet og på tværs af huset med at **afkode** og **forstå** indholdet på en programside, og hvornår er det lykkedes? | definition | OKR'en bruger ordene uden definition. [begreber.md](../context/begreber.md) er et udkast, og ingen kilde i 01 definerer dem. | Eksisterende viden: workshop, UX-vidensdeling, begrebsområde i Lucid | 1 |
+| RQ0a | Hvad mener vi i PCS-teamet og på tværs af huset med at **afkode** og **forstå** indholdet på en programside, og hvornår er det lykkedes? **Delvist besvaret 9/11:** at reducere usikkerhed om programmet (PM, K20). | definition | OKR'en bruger ordene uden definition. [begreber.md](../context/begreber.md) er et udkast, og ingen kilde i 01 definerer dem. | Eksisterende viden: workshop, UX-vidensdeling, begrebsområde i Lucid | 1 |
 | RQ0b | Hvilken information har brugerne selv brug for at afkode og forstå på en programside for at kunne træffe et valg, og hvornår oplever de, at de har "forstået nok"? | definition × `beslutte` | Vi ved, at brugerne skimmer tekst (#1), orienterer sig efter serien (#17) og vurderer relevans ud fra genre (#28). Men vi ved ikke, hvad brugerne selv regner for at have forstået en side. | Ny kvalitativ (åbne spørgsmål før opgaverne) + eksisterende viden | 1 |
 
 ### Afkode
@@ -55,22 +56,23 @@ Disse spørgsmål kommer først, fordi resten bygger på dem. RQ0a handler om, h
 | # | Spørgsmål | Dimension | Hvorfor (hul fra 01) | Svares via | Prioritet |
 |---|---|---|---|---|---|
 | RQ7 | **Hjælper** programsiden brugerne til at beslutte (se nu, gem eller gå videre) uden tøven og korrekt? Hvor tøver de, vælger forkert eller opgiver? | alle × `beslutte` | Serieindgang giver bedst adfærd på forsiden (#18), men selve programsiden er ikke undersøgt. Den nyeste episode er ikke altid den rigtige (#19). | Ny kvalitativ | 1 |
-| RQ8 | **Hjælper** live-programsiden brugerne med at afkode og forstå, hvornår eventet starter, hvad "Se live kanal" gør før start, og hvordan de bliver påmindet? | `hvad`, `navigation` × alle | Hul 4: ingen brugerdata om live-sider. "Påmind mig" findes kun på iOS. | Ny kvalitativ | 3 |
+| RQ8 | ~~**Hjælper** live-programsiden brugerne med at afkode og forstå, hvornår eventet starter, hvad "Se live kanal" gør før start, og hvordan de bliver påmindet?~~ **Uden for scope** (beslutning 9/11). Bliver et videnshul. | `hvad`, `navigation` × alle | Hul 4: ingen brugerdata om live-sider. "Påmind mig" findes kun på iOS. | Ny kvalitativ | 3 |
 
 ### Tværgående
 | # | Spørgsmål | Dimension | Hvorfor (hul fra 01) | Svares via | Prioritet |
 |---|---|---|---|---|---|
 | RQ9 | Hvor adskiller afkodning og forståelse sig mellem **desktop-web og iOS**? | platform | Forskellig knaplogik, overlay og påmindelse (#21). | Ny kvalitativ (samme opgaver på begge platforme) | 1 |
 | RQ10 | Adskiller problemerne sig efter **indgang** (forside, søgning, direkte link)? | `indgang` | Direkte indgang fra mail skaber forvirring (#8). | Ny kvalitativ (scenarier) + analytics | 3 |
+| RQ18 | Hvilke udfordringer har brugerne med **Se videre** på programsiden og forsiden i dag, og hvor er der optimeringspunkter? | `navigation` × alle, fase "under" | PM's fokus for fasen "under afspilning" (K20). Den nyeste episode er ikke altid den rigtige (#19), og næste episode opleves som "underlig" (#32). | Ny kvalitativ + analytics | 2 |
 
 ### Eksisterende viden på tværs af huset
 De her spørgsmål besvares uden nye sessioner og dækker den del af KR 1, der handler om eksisterende viden.
 
 | # | Spørgsmål | Hvorfor (hul fra 01) | Svares via | Ejer at spørge |
 |---|---|---|---|---|
-| RQ15 | Hvad **antager** PCS-teamet om, hvor godt brugerne kan afkode og forstå programsiderne, og hvilke af antagelserne er vi mest usikre på? | Teamets viden er ikke dokumenteret nogen steder. Eneste antagelser indtil nu er mine egne screenshot-hypoteser (C) i [programsider.md](../context/programsider.md). | Workshop "Hvad tror vi, brugerne forstår?" (antagelser + 2×2: vigtig × sikker) | PCS-teamet / Mette-Sofie Kam |
+| RQ15 | Hvad **antager** PCS-teamet om, hvor godt brugerne kan afkode og forstå programsiderne, og hvilke af antagelserne er vi mest usikre på? **Delvist besvaret 9/11:** fem antagelser fra PM (01 A1-A5). Prioritering mangler. | Teamets viden er ikke dokumenteret nogen steder. Eneste antagelser indtil nu er mine egne screenshot-hypoteser (C) i [programsider.md](../context/programsider.md). | Workshop "Hvad tror vi, brugerne forstår?" (antagelser + 2×2: vigtig × sikker) | PCS-teamet / Mette-Sofie Kam |
 | RQ16 | Hvad **ved** vi fra tidligere undersøgelser om brugernes oplevelse af programsiden i forhold til deres evne til at afkode og forstå indholdet? | Kun få fund handler om selve programsiden (hul 5). UX'ernes viden er ikke samlet ét sted. | UX-vidensdeling (Leah, Marie-Louise, Jakob, øvrige), URR, Lucid-boards | UX'erne |
-| RQ11 | Hvad viser trailer-A/B-testen om trailerens betydning for engagement og afspilning på programsiden? | Hul 1: der findes et testdesign, men ingen resultater (K12) | Eksisterende | Mette-Sofie Kam |
+| RQ11 | Hvad viser trailer-A/B-testen om trailerens betydning for engagement og afspilning på programsiden? **Delvist besvaret** (01 #38-43): ingen entydig effekt på tværs, positivt signal på TV, intet signal på mobil. Mangler: desktop-web, iOS og tidlige stop. | Hul 1: der findes et testdesign, men ingen resultater (K12) | Eksisterende | Mette-Sofie Kam |
 | RQ12 | Hvor mange kundeservicehenvendelser handler om adgang til konkret indhold, og hvad handler de om? | Hul 6: K09 nævner temaet uden tal | Eksisterende (kundeservice) | [udfyld] |
 | RQ13 | Hvordan kommer brugerne ind på programsiderne, og hvor mange afspiller efter et besøg? Hvor mange stopper en afspilning tidligt? Det sidste kan være et proxy-mål for forventningsafstemning (forslag fra K18). | Hul 7: tracking findes, men er ikke trukket ud | Analytics | D&I / PDL |
 | RQ14 | ~~Hvad viste "Andre så også"-testen?~~ **Besvaret** via Lucid (01 #28-31): genre-match driver relevans. Testen handler om playeren, ikke programsiden. | Hul 3 (K14) | Eksisterende | Steffen Klitlund Rauff |

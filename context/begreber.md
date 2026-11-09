@@ -7,6 +7,17 @@ Fælles definition, som al research og tagging bygger på.
 ## Grundidé
 En programside lykkes, når brugeren hurtigt og korrekt kan **beslutte** noget: se nu, gemme, fortsætte eller gå videre. At afkode og forstå er midlet. Beslutningen er målet.
 
+**Definition (PM, workshop 9/11):** At afkode og forstå handler om at **reducere usikkerhed om programmet**. Derfor måles både korrekthed og sikkerhed (se nedenfor).
+
+## Programcyklus: før, under og efter afspilning
+Aftalt på workshop med PM 9/11 (K20). Brugerne har forskellige spørgsmål i hver fase.
+
+| Fase | Brugerens spørgsmål (fra workshoppen) | Brugssituationer (afsnit 5) |
+|---|---|---|
+| Før afspilning | Hvem er med? Hvor mange afsnit? Hvilke aktører er med? | udforske, tjekke-nyt, glaede-sig, lande-direkte |
+| Under afspilning | Se videre på programside og forside: hvilke udfordringer er der i dag, og hvad kan optimeres? | fortsaette |
+| Efter afspilning | [udfyld: ikke defineret på workshoppen] | |
+
 ## Tagging-akser
 Hver observation og indsigt tagges på fire akser: **spørgsmål × niveau × årsag × indgang** plus alvorlighed.
 
@@ -92,5 +103,6 @@ Før workshoppen: tag de eksisterende indsigter i [../research/01-eksisterende-i
 Forkert forståelse med høj sikkerhed er altid mindst 2.
 
 ## Afgrænsning
-- I scope: [udfyld]
-- Uden for scope: [udfyld, fx forside, søgning, afspiller]
+- I scope: programsider for programmer med låst contentID, med fokus på serier. Desktop-web og iOS-app. Se videre på både programside og forside (fasen "under").
+- Nedprioriteret: enkeltstående indhold (film, dokumentar).
+- Uden for scope: live-events og TV-appen. [Afklar: søgning og afspiller]
