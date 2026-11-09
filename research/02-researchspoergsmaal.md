@@ -74,6 +74,29 @@ De her spørgsmål besvares uden nye sessioner og dækker den del af KR 1, der h
 
 RQ11-14 sættes i gang med det samme, fordi de ikke kræver rekruttering.
 
+## Sporing: RQ → aktiviteter → indsigter
+Opdateres løbende, når der kommer nye kilder eller sessioner. Indsigts-numrene henviser til [01](01-eksisterende-indsigter.md) (evidens i parentes). Spejles i Lucid ("Sporing"-rammen).
+*Sidst opdateret: 2026-11-09.*
+
+| RQ | Spørgsmål (kort) | Prio | Aktiviteter | Indsigter indtil nu | Status |
+|---|---|---|---|---|---|
+| RQ0a | Hvad mener vi med afkode og forstå? | 1 | Workshop m. PM 9/11 · Leah 9/11 · øvrige UX'ere · begrebsområde i Lucid | Ingen kilde definerer ordene. Udkast i begreber.md | Åben |
+| RQ0b | Hvad skal brugerne selv forstå for at vælge? | 1 | Design (åbne spørgsmål) · sessioner | #1 skimmer tekst (A) · #17 serie frem for episode (B) · #28 genre driver relevans (B) | Delvist (indirekte) |
+| RQ1 | Afkoder de type og handlinger? | 2 | Workshop · design · sessioner | #5 collage-key art forvirrer (B) · #17 (B) | Hul |
+| RQ2 | Hvilke elementer afkoder relevans? | 2 | Confluence (titleart, labels) · workshop · sessioner | #1 (A) · #24 "Læs mere" (C) · #27 key art (B) | Delvist |
+| RQ3 | Afkoder de adgang, med og uden adgang? | 1 | Confluence (knaplogik) · rekruttering m/u adgang · sessioner | #15 "Sidste chance" forstås (A) · #20 overladt til sig selv (B) · #21 web ≠ app (C) | Hul på selve siden |
+| RQ4 | Forstår de hvad det er, og hvor sikre er de? | 2 | Workshop · sessioner | #2 trailers "genreafkoder" (B) · #10 genreord (B) | Hul |
+| RQ5 | Forstår de logoer, "kræver X" og udløb? | 1 | Confluence ("Sidste chance") · workshop · sessioner | #11 partnerbrands (B) · #13 live-begreber (A) · #16 én misforståelse (A) · #22 (C) | Delvist (uden for siden) |
+| RQ6 | Forstår de, hvor de er i en serie? | 2 | Workshop · sessioner | #4 snigpremiere (B) · #19 nyeste ≠ rigtige (A) · #23 (C) · #26 (C) | Delvist |
+| RQ7 | Fører siden til en korrekt beslutning? | 1 | Confluence (hurtig vej til playback) · sessioner | #18 serieindgang (A) · #19 (A) | Hul på selve siden |
+| RQ8 | Hjælper live-siden? | 3 | Sessioner (hvis tid) | #3 ønske om påmindelse (B) | Hul |
+| RQ9 | Forskel web vs. iOS? | 1 | Rekruttering · sessioner | #21 (C) + egne screenshots | Hul |
+| RQ10 | Forskel efter indgang? | 3 | Sessioner (scenarier) · analytics | #8 direkte fra mail (B) · #18 (A) | Delvist |
+| RQ11 | Hvad viste trailer-testen? | – | Spørg PM | Testdesign (K12), ingen resultater | Venter |
+| RQ12 | Hvad siger kundeservicedata om adgang? | – | Find ejer | #20 nævnt uden tal (B) | Venter |
+| RQ13 | Indgang og afspilning efter besøg? | – | D&I / PDL | #31 ASO-klik 1,7K vs. 4,8K (A) | Delvist |
+| RQ14 | Hvad viste "Andre så også"? | – | Lucid-board | #28-31 | Besvaret |
+
 ## Uden for scope
 - Forside, søgning og afspiller, undtagen som indgang til programsiden (RQ10)
 - Købsflow og pakkevælger. Upsell overlayet medtages kun, hvor det vises på programsiden.
