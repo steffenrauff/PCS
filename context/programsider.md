@@ -37,6 +37,27 @@ Brug disse navne konsekvent i tagging.
 | saesoner | Sæson- og episodevælger | Chips pr. sæson ("Sæson 2" … "Sæson 6") med episoderække under |
 | relateret | Relateret indhold | Film: rail "Andre så også", hvor flere kort har C MORE-logo. Live: rail "Se med live". |
 
+## Kategorimodel (CMS)
+Ny model, der giver en dybere kategorisering af indhold. Kilde: Leah (UX), 2026-11-09 (K17). Screenshottet viser fanen "Metadata" → "Kategorier" for en dramaserie.
+
+| Felt | Værdier | Eksempel fra screenshot |
+|---|---|---|
+| Play-kategori | Én værdi | Drama |
+| Genre | Flere | Periodedrama, Drama, Komedie |
+| Form | Flere | Serie |
+| Målgruppe | Flere | 15+ år, Familie |
+| Emne | Flere | Relationer, Arbejdsliv, Arbejdsplads, Danmark, Drømme, Familie, Ferie, Fællesskab, Historie, Intriger, Kærlighed, Kønsroller, Overklasse, Sociale forhold, Sommer, Turisme, Venskab |
+| Stemning | Flere | Varm, Dramatisk, Feel-good, Følelsesladet, Humoristisk, Hyggelig, Nostalgisk, Romantisk, Rørende |
+| Konkurrence | Flere | Tom ("kan være relevant for indhold om sport") |
+
+Observation: Den første værdi i hvert felt er fremhævet med blåt. Fortolkning (ikke bekræftet): det er den primære værdi.
+
+Åbne spørgsmål til Leah:
+- Er modellen i produktion, og hvor stor en del af kataloget er tagget?
+- Er der planer om at vise felterne på programsiden, eller bruges de kun til søgning og anbefalinger? **Delvist besvaret:** Data steward Jacob Lykke mener, at potentialet ikke er udnyttet i brugerfladen. Han foreslår tre kategorier som bullets ligesom Netflix (K18).
+- Betyder blå primær værdi, og hvem tagger (redaktion, AI eller begge)?
+- Hvilken titel er screenshottet fra?
+
 ## Screenshots
 [Læg i `context/screenshots/` og link her]
 - Serie, web: [Forræder UK](screenshots/serie-forraeder-uk-web.png) (2026-11-07)
@@ -59,4 +80,5 @@ Brug disse navne konsekvent i tagging.
 | "Se live kanal" vises ca. 50 min før kampstart. Det er uklart, om knappen viser kampen eller det, der kører på Sport X nu (`hvad` × `beslutte`, `cta`). | Screenshots Roma-Sassuolo, web og iOS, 2026-11-07 | C |
 | Live-siden på desktop-web har ingen påmindelse, men det har iOS ("Påmind mig"). Web-brugere, der ikke kan se nu, har ingen handling (`navigation` × `beslutte`, `cta`). Jf. påmindelse i PL-763. | Screenshots Roma-Sassuolo, web og iOS, 2026-11-07 | C |
 | Live-beskrivelsen gentager titlen og giver ingen grund til at se (betydning, stilling, kommentator) (`relevans` × `forstaa`, `beskrivelse`, årsag `indhold`). | Screenshot Roma-Sassuolo, web, 2026-11-07 | C |
+| Metadata viser én genre ("Reality", "Romantik"), selvom den nye kategorimodel har genre, stemning, emne og målgruppe med flere værdier. Brugeren får derfor færre signaler om tone og relevans end dem, der findes i data (`relevans` × `afkode`, `metadata`, årsag `regel`). **Støttet af ekspertudsagn:** Én genre kan ikke vise genreblandinger som drama + komedie (01 #36). | K17, K18 + screenshots, 2026-11-07 | C |
 | Det fremgår ikke, om Sport X kræver en bestemt pakke (`adgang` × `afkode`, `metadata`/`tilgaengelighed`). | Screenshot Roma-Sassuolo, web, 2026-11-07 | C |

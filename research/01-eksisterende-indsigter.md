@@ -21,6 +21,8 @@ Udfyldes med skill `programside-insight-inventory`.
 | K14 | Andre-så-også: umodereret brugertest + Lucid-board "Genaktivering efter endt sening" | Steffen Klitlund Rauff (UX) | Dec 2025 - feb 2026 | Umodereret test (40 resp.), survey og adfærdsdata. Fund ligger i Lucid, ikke i Confluence. | [URR 5812224005](https://tv2cms.atlassian.net/wiki/spaces/URR/pages/5812224005), [Lucid](https://lucid.app/lucidspark/27ea7f2e-35b1-46f5-89e4-bd3fe89a0663/edit) |
 | K15 | Vidensdeling: Marie-Louise og Jakob (UX) | Marie-Louise, Jakob | 2026-11-09 | Henvendelse om vidensdeling. Ingen egen research om programsider. Videregiver feedback fra familie og venner. | Svar til skra, 2026-11-09 |
 | K16 | Lucid-board "Indholdsrelationer på Play" (PCS-initiativ) | Leah Ravn Sørensen, Mie Hedegaard Hansen, Mette-Sofie Kam m.fl. | ukendt | Problem pitch, use cases, designprincipper og OKR-udkast. Ingen brugerdata på boardet. | [Lucid](https://lucid.app/lucidspark/29997075-009b-45d2-a5ed-9dde74078e7a/edit) |
+| K17 | Ny kategorimodel i CMS (samtale med Leah + screenshot af metadatafanen) | Leah Ravn Sørensen (UX) | 2026-11-09 | Samtale og screenshot af datamodel. Ingen brugerdata. | Screenshot delt i chat 2026-11-09, se [programsider.md](../context/programsider.md#kategorimodel-cms) |
+| K18 | Samtale med Jacob Lykke (data steward) om redaktionens ønsker til kategorimodellen | Jacob Lykke | 2026-11-09 | Samtale. Ekspertudsagn, ingen brugerdata. | Samtale med skra, 2026-11-09 |
 
 ## Indsigter
 | # | Indsigt | Element | Spørgsmål | Niveau | Årsag | Evidens | Kilde-id |
@@ -60,8 +62,10 @@ Udfyldes med skill `programside-insight-inventory`.
 | 33 | Antaget use case: En bruger, der ser første film i en række, bliver ikke gjort opmærksom på, at toeren også er på Play | relateret | navigation | afkode | regel | C | K16 |
 | 34 | Antaget use case: En bruger går ind på en serie (fx Feltet), fordi der kommer en ny sæson, men kan ikke finde traileren | hero (trailer), saesoner | navigation | afkode | regel | C | K16 |
 | 35 | PEI er bygget op om enkeltstående indholdssider frem for relationer, så serier, nye sæsoner, trailere og bonusmateriale lever adskilt og kan ikke samles på programsiden | relateret, saesoner | navigation | afkode | regel | C | K16 |
+| 36 | Data steward vurderer, at kategorimodellens potentiale ikke er udnyttet på Play. Han henviser til Netflix, der viser tre kategorier som bullets. Det er især nyttigt ved genreblandinger: Et drama, der også er komedie, er noget helt andet end et rent drama | metadata | hvad, relevans | afkode | design | C | K18 |
+| 37 | Data steward vurderer, at mere metadata (flere kategorier og medvirkende) er en hygiejnefaktor, som brugerne forventer fra andre tjenester. Medvirkende indgår ikke i metadata-linjen på Play i dag | metadata | hvad, relevans | forstaa | design | C | K18 |
 
-Indsigter, der ikke passer i akserne, tagges `andet` og tælles med i valideringen af modellen. **Andel `andet`: 0 af 35.** #13 og #14 handler om pakkevælger og købsflow, og #28-30 om anbefalinger efter afspilning i playeren, ikke programsiden. De passer alle i akserne.
+Indsigter, der ikke passer i akserne, tagges `andet` og tælles med i valideringen af modellen. **Andel `andet`: 0 af 37.** #13 og #14 handler om pakkevælger og købsflow, og #28-30 om anbefalinger efter afspilning i playeren, ikke programsiden. De passer alle i akserne.
 
 ## Mønstre på tværs
 - **Adgang er det mest dokumenterede problem, men det meste ligger uden for programsiden.** Fund om pakker, partnerbrands og live-begreber (#11, #13, #14) stammer fra landingpage, pakkevælger og købsflow. Selve programsiden mangler data fra brugere med for lav pakke. Den bedste kilde er #20, som er en problembeskrivelse uden tal.
@@ -72,6 +76,7 @@ Indsigter, der ikke passer i akserne, tagges `andet` og tælles med i validering
 - **Key art og tekst er vigtigste afkodningskilder** (#1, #5, #17, #27). Brugerne skimmer tekst for at beslutte. Det gør afkortningen (#24 og min hypotese) relevant.
 - **Live-programsider er næsten ikke undersøgt.** Ingen fund handler direkte om event-siden. "Påmind mig" efterspørges (#3) og findes på iOS, men ikke på web.
 - **Indholdsrelationer er en forudsætning for afkodning (fortolkning, C).** Brugeren kan kun afkode det, der er på siden. Mangler sæsoner, trailere, bonusmateriale og franchise, ser brugeren ikke, at det findes (#33-35). Relationerne giver kontekst, fx "del 2", "ny sæson på vej" eller "samme univers", og genre og univers er det, brugerne vurderer relevans ud fra (#28). Uden relationer mister brugeren overblikket over næste skridt, både når hun vil udforske, og når hun vil fortsætte. Årsagen er `regel` (PEI), ikke design. → RQ16
+- **Kategorimodellen kan give mere at afkode ud fra (fortolkning, C).** Den nye model (K17) har genre, form, målgruppe, emne og stemning med flere værdier pr. titel. Programsiden viser i dag én genre i metadata. Da genre driver relevans (#28) og genreord påvirker interessen (#10), kan stemning og emne være relevante signaler til `relevans × afkode/forstaa`. Redaktionens data steward mener, at potentialet ikke er udnyttet, og peger især på genreblandinger (#36). Han medgiver, at det er svært at måle effekten på afspilning. Han foreslår i stedet at måle, hvor mange der stopper en afspilning, som tegn på bedre forventningsafstemning. Han anbefaler også at starte i ét hjørne og begynde at bruge metadata (K18). Vi ved ikke, om data bliver vist på programsiden, eller om brugerne vil bruge det. → RQ2, RQ4
 - **Konflikt:** K07 konkluderer "alle 12 forstår", men ét af de citerede svar er en misforståelse (#16). Begge dele beholdes.
 
 ## Huller i eksisterende viden

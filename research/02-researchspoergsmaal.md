@@ -72,8 +72,9 @@ De her spørgsmål besvares uden nye sessioner og dækker den del af KR 1, der h
 | RQ16 | Hvad **ved** vi fra tidligere undersøgelser om brugernes oplevelse af programsiden i forhold til deres evne til at afkode og forstå indholdet? | Kun få fund handler om selve programsiden (hul 5). UX'ernes viden er ikke samlet ét sted. | UX-vidensdeling (Leah, Marie-Louise, Jakob, øvrige), URR, Lucid-boards | UX'erne |
 | RQ11 | Hvad viser trailer-A/B-testen om trailerens betydning for engagement og afspilning på programsiden? | Hul 1: der findes et testdesign, men ingen resultater (K12) | Eksisterende | Mette-Sofie Kam |
 | RQ12 | Hvor mange kundeservicehenvendelser handler om adgang til konkret indhold, og hvad handler de om? | Hul 6: K09 nævner temaet uden tal | Eksisterende (kundeservice) | [udfyld] |
-| RQ13 | Hvordan kommer brugerne ind på programsiderne, og hvor mange afspiller efter et besøg? | Hul 7: tracking findes, men er ikke trukket ud | Analytics | D&I / PDL |
+| RQ13 | Hvordan kommer brugerne ind på programsiderne, og hvor mange afspiller efter et besøg? Hvor mange stopper en afspilning tidligt? Det sidste kan være et proxy-mål for forventningsafstemning (forslag fra K18). | Hul 7: tracking findes, men er ikke trukket ud | Analytics | D&I / PDL |
 | RQ14 | ~~Hvad viste "Andre så også"-testen?~~ **Besvaret** via Lucid (01 #28-31): genre-match driver relevans. Testen handler om playeren, ikke programsiden. | Hul 3 (K14) | Eksisterende | Steffen Klitlund Rauff |
+| RQ17 | Hvilken metadata viser konkurrenterne på deres programsider, fx flere genrer eller stemninger som bullets og medvirkende, og hvad er markedsstandarden, som brugerne kan have med sig? | Data steward vurderer, at mere metadata og medvirkende er en hygiejnefaktor (01 #37, C). Play viser i dag én genre. | Lille benchmark (desk research): Netflix (nævnt i K18) + 3-4 andre streamingtjenester | skra |
 
 ## Prioritering
 0. **Begrebsafklaring og antagelser:** RQ0a og RQ15 afklares på workshoppen og via UX-vidensdeling i uge 46. RQ15's 2×2 (vigtig + usikker) bruges til at prioritere RQ1-10 før design. RQ0b følger med som åbne spørgsmål i sessionerne.
