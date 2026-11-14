@@ -2,6 +2,13 @@
 
 Nyeste øverst. Én beslutning pr. afsnit.
 
+## 2026-11-12: Tre spørgsmål danner grundlag for survey
+- **Kontekst:** Undersøgelse af, hvilke informationselementer der hjælper brugerne med at afkode relevans.
+- **Beslutning:** Surveyet skal arbejde videre med orientering (hvad brugerne lægger mærke til), videnshuller (hvad de mangler) og kontekst (om behovet varierer mellem fx fiktion og underholdning).
+- **Begrundelse:** Ikke oplyst.
+- **Konsekvens:** Spørgsmålene bruges som grundlag for surveyudformningen i [03](../research/03-undersoegelsesdesign.md). Det øvrige undersøgelsesdesign er ikke ændret.
+- **Kilde:** Brugerens valg i chat 2026-11-12.
+
 ## 2026-11-09: RQ12-14 fjernes
 - **Kontekst:** RQ12 (kundeservicedata om adgang), RQ13 (indgang og afspilning efter besøg, tidlige stop) og RQ14 ("Andre så også", allerede besvaret).
 - **Beslutning:** Spørgsmålene er fjernet fra [02](../research/02-researchspoergsmaal.md), opgaverne og sporingstabellen i Lucid.

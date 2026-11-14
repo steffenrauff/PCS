@@ -26,6 +26,7 @@ Udfyldes med skill `programside-insight-inventory`.
 | K19 | Trailer POC: resultater (slides, PL-763). Opfølgning på K12 | Ukendt (PCS) | Ukendt. Data fra aug-okt | 50/50 A/B-test efter premiere (41 delanalyser på titel, platform, periode og treatment) + Google-data før premiere (9 titler) | Screenshots delt i chat 2026-11-09. Samlet i [kilder/k19-trailer-poc.md](kilder/k19-trailer-poc.md) |
 | K20 | Workshop "Hvad tror vi, brugerne forstår?" med PM | PCS (PM) | 2026-11-09 | Workshop med screenshots af programsider. Antagelser og scope, ingen brugerdata. | [Lucid](https://lucid.app/lucidspark/62e18d5d-2302-4878-98dd-a89c367b0710/edit) |
 | K21 | Benchmark af metadata på programsider: Netflix og Disney+ | skra | 2026-11-09 | Desk research af 4 offentlige titelsider (desktop-web, ikke logget ind). Ingen brugerdata. | [kilder/k21-benchmark-netflix-disney.md](kilder/k21-benchmark-netflix-disney.md) |
+| K22 | Medvirkende på Play | Leah (UX) | 2026-07-15 – 2026-08-04 | Spørgeskema: 46 gennemførte besvarelser; rekruttering ukendt. Selvrapporteret, ingen observeret adfærd. | [Anonymiseret optælling og spørgsmål](kilder/k22-medvirkende-paa-play.md); original i Downloads indeholder persondata |
 
 ## Indsigter
 | # | Indsigt | Element | Spørgsmål | Niveau | Årsag | Evidens | Kilde-id |
@@ -78,8 +79,12 @@ Udfyldes med skill `programside-insight-inventory`.
 | 46 | Benchmark: Netflix og Disney+ viser medvirkende og skaber. Netflix viser 2-3 navne lige under beskrivelsen og op til 10 længere nede. Play viser ikke medvirkende i metadata | metadata, beskrivelse | hvad, relevans | afkode | design | C | K21 |
 | 47 | Benchmark: Netflix og Disney+ viser år på serier (seneste år eller interval). Play viser kun år på film (jf. A1) | metadata | hvad | afkode | design | C | K21 |
 | 48 | Benchmark: Netflix lægger metadata i lag: én genre i toppen, flere genrer, stemning, medvirkende, lyd og undertekster i "Flere oplysninger" længere nede | metadata | hvad, relevans | afkode | design | C | K21 |
+| 49 | 19 af 45 svarer, at de ofte eller meget ofte vælger et program, fordi en bestemt person medvirker; 12 svarer af og til, og 14 sjældent eller aldrig | metadata (muligt element) | relevans | ukendt | ukendt | B | K22 |
+| 50 | 22 af 45 vælger skuespillere og 23 værter blandt typer af medvirkende, der kan påvirke, hvad de gerne vil se. Flere valg var mulige | metadata (muligt element) | relevans | ukendt | ukendt | B | K22 |
+| 51 | 23 af 46 svarer, at de har ledt efter et program på Play med en bestemt medvirkende; 12 svarer nej og 11 kan ikke huske | ukendt | navigation | ukendt | ukendt | B | K22 |
+| 52 | 22 af 46 vælger personens rolle, 21 billede og 18 andet indhold med personen som værdifuld information om en medvirkende. Flere valg var mulige | metadata, relateret (mulige elementer) | hvad, relevans | ukendt | ukendt | B | K22 |
 
-Indsigter, der ikke passer i akserne, tagges `andet` og tælles med i valideringen af modellen. **Andel `andet`: 0 af 43.** #13 og #14 handler om pakkevælger og købsflow, og #28-30 om anbefalinger efter afspilning i playeren, ikke programsiden. De passer alle i akserne.
+Indsigter, der ikke passer i akserne, tagges `andet` og tælles med i valideringen af modellen. **Andel `andet`: 0 af 52.** #13 og #14 handler om pakkevælger og købsflow, og #28-30 om anbefalinger efter afspilning i playeren, ikke programsiden. K22 handler om medvirkende generelt, ikke specifikt om programsiden; ukendte akser er angivet som `ukendt`.
 
 ## Teamets antagelser (K20, evidens C)
 PM's spørgsmål, da vi gennemgik programsiderne på workshoppen 9/11. De besvarer RQ15 og skal afprøves i sessionerne.
@@ -89,7 +94,7 @@ PM's spørgsmål, da vi gennemgik programsiderne på workshoppen 9/11. De besvar
 | A1 | Mangler brugerne produktionsår på serier? | metadata | hvad, relevans | før | Film viser år, serier gør ikke ([programsider.md](../context/programsider.md)) |
 | A2 | Savner brugerne antal afsnit? | metadata, saesoner | navigation | før | #26 |
 | A3 | Savner brugerne overblikket over alle Forræder-produktioner? | relateret | navigation, relevans | før | #33, #35 (K16) |
-| A4 | Savner brugerne aktører (medvirkende)? Er på roadmappen senere | metadata | hvad, relevans | før | #37 (K18) |
+| A4 | Savner brugerne aktører (medvirkende)? Er på roadmappen senere | metadata | hvad, relevans | før | #37 (K18), #49-52 (K22: selvrapporteret, ikke specifikt om programsiden) |
 | A5 | Er det nok med "Reality", eller skal der mere kategorisering til? | metadata | hvad, relevans | før | #10, #28, #36 (K17, K18) |
 
 ## Mønstre på tværs
@@ -99,6 +104,7 @@ PM's spørgsmål, da vi gennemgik programsiderne på workshoppen 9/11. De besvar
 - **Labels og metadata er mere regel- og indholdsstyrede end designstyrede** (#23, #25, #26). Ejerskabet ligger delvis hos redaktion og CMS/Heimdal.
 - **Serie frem for episode.** Brugerne orienterer sig efter serien og deres egen progression (#17-19). Det understøtter "Afspil S#:E#" med watch state, men taler imod episodespecifik key art.
 - **Key art og tekst er vigtigste afkodningskilder** (#1, #5, #17, #27). Brugerne skimmer tekst for at beslutte. Det gør afkortningen (#24 og min hypotese) relevant.
+- **Medvirkende kan påvirke valget for nogle, men behovet på programsiden er ikke testet.** I Leahs spørgeskema svarer 19 af 45 ofte eller meget ofte og 14 sjældent eller aldrig (#49, B). 22 af 46 vælger personens rolle som værdifuld information (#52, B). Det nuancerer den interne antagelse om medvirkende (#37, C), men dokumenterer ikke, at brugere savner oplysningerne på programsiden eller bruger dem dér.
 - **Live-programsider er næsten ikke undersøgt.** Ingen fund handler direkte om event-siden. "Påmind mig" efterspørges (#3) og findes på iOS, men ikke på web.
 - **Indholdsrelationer er en forudsætning for afkodning (fortolkning, C).** Brugeren kan kun afkode det, der er på siden. Mangler sæsoner, trailere, bonusmateriale og franchise, ser brugeren ikke, at det findes (#33-35). Relationerne giver kontekst, fx "del 2", "ny sæson på vej" eller "samme univers", og genre og univers er det, brugerne vurderer relevans ud fra (#28). Uden relationer mister brugeren overblikket over næste skridt, både når hun vil udforske, og når hun vil fortsætte. Årsagen er `regel` (PEI), ikke design. → RQ16
 - **Kategorimodellen kan give mere at afkode ud fra (fortolkning, C).** Den nye model (K17) har genre, form, målgruppe, emne og stemning med flere værdier pr. titel. Programsiden viser i dag én genre i metadata. Da genre driver relevans (#28) og genreord påvirker interessen (#10), kan stemning og emne være relevante signaler til `relevans × afkode/forstaa`. Redaktionens data steward mener, at potentialet ikke er udnyttet, og peger især på genreblandinger (#36). Han medgiver, at det er svært at måle effekten på afspilning. Han foreslår i stedet at måle, hvor mange der stopper en afspilning, som tegn på bedre forventningsafstemning. Han anbefaler også at starte i ét hjørne og begynde at bruge metadata (K18). Vi ved ikke, om data bliver vist på programsiden, eller om brugerne vil bruge det. → RQ2, RQ4
@@ -118,6 +124,7 @@ Input til [02-researchspoergsmaal.md](02-researchspoergsmaal.md).
 7. **Analytics fra programsiden.** Besøg, indgang og afspilning efter besøg. Tracking findes (fx Adobe-workspaces i K08), men er ikke trukket ud.
 8. **Ikke læst endnu.** "Details Page cta Buttons + hints + action states" (PCS 5297734121), "Details page: Wish list for future" (PCS 5360713852), "Labels: Sidste chance" (PDL 5658740107), "Hero: Titleart" (PDL 5657952257), "Kommer snart: Fokus på titlen" (PDL 5659689670), "Mini-hero splittest" (PDL 6476300320), "Hurtig vej til playback" (PDL 5547655219) og URR-arkivsiderne for 2020-2024.
 9. **Resultater fra "Indholdsrelationer på Play" (K16).** OKR-udkastet havde som KR at finde 5-10 indsigter fra redaktører og brugere og at kortlægge use cases ud fra usability-tests. Hvis det er gennemført, ligger resultaterne ikke på boardet. Spørg Leah.
+10. **Medvirkende på programsiden.** K22 giver selvrapporteret viden om medvirkende generelt, men viser ikke, om eller hvordan oplysningerne hjælper på programsiden. Skalaernes endepunkter og rekruttering er ukendte. Afklar med Leah og undersøg brugernes valg på siden.
 
 ### Spor fra PMX canon (K01), der ikke er indsigter endnu
 PMX canon indeholder ingen dokumenterede brugerindsigter om programsider. Kilden indeholder kun planlagte KR'er. Resultaterne skal findes i Confluence eller Jira:

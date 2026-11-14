@@ -85,7 +85,7 @@ RQ11 og RQ15-17 sættes i gang med det samme, fordi de ikke kræver rekruttering
 
 ## Sporing: RQ → aktiviteter → indsigter
 Opdateres løbende, når der kommer nye kilder eller sessioner. Indsigts-numrene henviser til [01](01-eksisterende-indsigter.md) (evidens i parentes). Spejles i Lucid ("Sporing"-rammen).
-*Sidst opdateret: 2026-11-09.*
+*Sidst opdateret: 2026-11-12.*
 
 | Spor | RQ | Spørgsmål (kort) | Prio | Aktiviteter | Indsigter indtil nu | Status |
 |---|---|---|---|---|---|---|
@@ -96,7 +96,7 @@ Opdateres løbende, når der kommer nye kilder eller sessioner. Indsigts-numrene
 | HS1 | RQ11 | Hvilke indsigter er der om trailerens betydning for valget om at afspille? | 1 | • Trailer-POC-slides (K19)<br>• Spørg PM om desktop-web, iOS og tidlige stop | **Trailer-POC (K19):**<br>• Ingen entydig effekt på aktivering: 3 af 41 delanalyser signifikante, to højere og én lavere (#38, A)<br>• Store skærme: 6 af 8 titler har højere aktivering med trailer på Android TV eller Smart TV, ikke signifikanstestet (#39, A)<br>• Få ser traileren: 5-11 % ser mindst halvdelen på desktop og TV, ca. 2 % på Android mobil (#40, A)<br>• Mobil: intet positivt signal, flere søgninger og lavere aktivering (#41, A)<br>• Før premiere finder brugerne programsiden via Google ca. 2 uger før, men trailervideoen i søgeresultatet giver næsten ingen klik (#42-43, A)<br>**Fortolkning (C):** Traileren er ikke en generel løftestang for afspilning. Den kan afstemme forventninger på store skærme, men få ser den, så key art og tekst bærer stadig afkodningen. | Delvist |
 | HS1 | RQ17 | Benchmark: hvordan udstiller andre tjenester metadata på programsider? | 2 | • Benchmark af Netflix og Disney+ (K21)<br>• Screenshots af indloggede sider (web, iOS) | #37 mere metadata er hygiejne (C) · **K21 (C):** Begge viser flere genrer (#44), medvirkende (#46) og år på serier (#47). Kun Netflix viser stemningstags (#45) og lægger detaljer i lag (#48). Play er under standarden på genrer, medvirkende og år | Delvist |
 | **HS2** | | **Brugerne: Hvor godt hjælper programsiderne brugerne med at afkode og forstå indholdet?** | | | | |
-| HS2 | RQ0b | Hvad skal brugerne selv forstå for at vælge? | 1 | • Design (åbne spørgsmål)<br>• sessioner | #1 skimmer tekst (A) · #17 serie frem for episode (B) · #28 genre driver relevans (B) | Delvist (indirekte) |
+| HS2 | RQ0b | Hvad skal brugerne selv forstå for at vælge? | 1 | • Design (åbne spørgsmål)<br>• sessioner | #1 skimmer tekst (A) · #17 serie frem for episode (B) · #28 genre driver relevans (B) · #49-50 medvirkende kan påvirke valg (B, selvrapporteret og ikke specifikt på programsiden) | Delvist (indirekte) |
 | HS2 | RQ1 | Afkoder de type og handlinger? | 2 | • Workshop<br>• design<br>• sessioner | #5 collage-key art forvirrer (B) · #17 (B) | Hul |
 | HS2 | RQ2 | Hvilke elementer afkoder relevans? | 2 | • Confluence (titleart, labels)<br>• workshop<br>• sessioner | #1 (A) · #24 "Læs mere" (C) · #27 key art (B) | Delvist |
 | HS2 | RQ3 | Afkoder de adgang, med og uden adgang? | 1 | • Confluence (knaplogik)<br>• rekruttering m/u adgang<br>• sessioner | #15 "Sidste chance" forstås (A) · #20 overladt til sig selv (B) · #21 web ≠ app (C) | Hul på selve siden |
