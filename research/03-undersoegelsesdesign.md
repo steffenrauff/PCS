@@ -14,65 +14,9 @@ Valgt i chat 2026-11-12; se [beslutninger](../context/beslutninger.md).
 
 ## Survey: udkast til script
 
-**Status:** Udkast til afprøvning, ikke et færdigt survey. Spørgsmålene gentages for tre programsider, så svarene kan sammenlignes.
+**Status:** Udkast til afprøvning, ikke et færdigt survey. Spørgsmålene gentages for tre programsider (fiktion, underholdning, VODcast), så svarene kan sammenlignes.
 
-### Materiale og opsætning
-
-- Vælg én side for hvert format: **fiktion**, **underholdning** og **VODcast**. Mulige eksempler fremgår af testmaterialet nedenfor; endelige titler og screenshots mangler.
-- Brug screenshots fra samme platform og vis samme udsnit af siden for alle tre. Sørg for, at teksten kan læses. Deltageren kan ikke klikke eller scrolle i et screenshot.
-- Vis én side ad gangen, og behold billedet synligt, mens deltageren besvarer spørgsmålene om den. Gentag spørgsmål 1–4 for alle tre sider. Variér rækkefølgen af siderne og svarmulighederne i spørgsmål 3, hvis surveyværktøjet understøtter det.
-- Afprøv scriptet på et par personer før udsendelse. Afklar derefter rekruttering, antal deltagere og samtykke.
-
-### Intro til deltageren
-
-> Vi vil gerne forstå, hvilke oplysninger der hjælper dig med at vurdere, om et program på TV 2 Play er noget for dig. Du får vist billeder af tre forskellige programsider. Se på hver side og svar ud fra det, du selv har brug for. Der er ingen rigtige eller forkerte svar.
-
-### Gentages for hver af de tre sider
-
-**[Vis screenshot: fiktionsserie / underholdningsprogram / VODcast]**
-
-**1. Hvad på siden lagde du først mærke til, da du skulle vurdere, om programmet var noget for dig?**
-
-Fritekst. *Orientering: hvad deltageren selv fortæller at have bemærket.*
-
-**2. Er der noget, du mangler at vide for at kunne beslutte, om programmet er noget for dig?**
-
-Fritekst. Skriv gerne, hvad du mangler, eller at du ikke mangler noget. *Videnshuller.*
-
-**3. Hvilke to typer information er vigtigst for dig, når du skal vurdere, om netop dette program er noget for dig?**
-
-Vælg højst to. Du må også vælge information, som ikke er vist på siden.
-
-- Beskrivelse af, hvad programmet handler om
-- Genre, fx krimi eller reality
-- Format, fx serie, samtaleprogram eller VODcast
-- Billeder fra eller illustration af programmet
-- Medvirkende, fx skuespillere eller værter
-- Produktionsår
-- Antal afsnit og afsnittenes længde
-- Trailer eller videoklip
-
-Hvis ingen af mulighederne passer, vælg **Ingen af disse** eller **Ved ikke** alene. Du kan vælge én, hvis kun én er vigtig. *Prioritering: selvrapporteret betydning, også for information der ikke vises.*
-
-**4. Kendte du programmet, før du så siden?**
-
-Vælg ét svar: **Jeg har set det** / **Jeg kendte det, men har ikke set det** / **Jeg kendte det ikke** / **Ved ikke**. *Bruges til at forstå, om forhåndskendskab kan påvirke svarene.*
-
-### Efter alle tre sider
-
-**5. Var der oplysninger, som var særligt vigtige for dig ved ét af programmerne, men ikke ved de andre? Hvilke, og hvorfor?**
-
-Fritekst; frivilligt. *Kontekst: oplevede forskelle mellem programmerne.*
-
-**6. Er der andet, du vil fortælle om, hvad der hjælper dig med at vælge et program?**
-
-Fritekst; frivilligt.
-
-### Sådan læses svarene
-
-- Sammenlign, hvilke oplysninger deltagerne nævner i spørgsmål 1 og 2, og hvilke de prioriterer i spørgsmål 3 på tværs af de tre sider.
-- Notér, om deltagerne kendte hvert program. Forskelle kan også skyldes den konkrete titel, sidens indhold eller kendskab til programmet – ikke nødvendigvis formatet alene.
-- Svarene er selvrapporterede (evidens B). De viser ikke direkte, hvad deltagerne faktisk kiggede på, eller om en oplysning ændrede deres valg. Supplér med observation, hvis det skal undersøges.
+Det fulde script med velkomst, baggrundsspørgsmål, spørgsmål pr. side, opsætning og læsevejledning ligger i [survey-script.md](survey-script.md).
 
 ## Deltagere og rekruttering
 | Segment | Antal | Kriterier |
