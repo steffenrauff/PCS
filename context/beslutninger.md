@@ -2,6 +2,13 @@
 
 Nyeste øverst. Én beslutning pr. afsnit.
 
+## 2026-11-16: Preely-survey starter med serier og konkrete brugerrejser
+- **Kontekst:** Brugeren vil undersøge, hvilke behov programsiden adresserer i brugerrejserne, før der fokuseres på enkelte informationselementer.
+- **Beslutning:** Første Preely-survey afgrænses til serier og tager udgangspunkt i det seneste serierelaterede besøg inden for syv dage. Både rejser med og uden programsiden indgår. Rammeværket er version 1 til senere afprøvning på andre indholdstyper.
+- **Begrundelse:** Starte i ét indholdsområde uden at foregive at dække alle programsidens anvendelser.
+- **Konsekvens:** Den nye [surveykladde](../research/programside-serier-survey.md) dokumenterer den faktisk oprettede forgrening. Det tidligere billedbaserede script bevares som tidligere udkast. Ændringer af det samlede PCS-scope eller PM/UX-godkendelse er ikke dokumenteret. Surveyet er ikke udsendt.
+- **Kilde:** Brugerens afklaringer og godkendelser i samtalen "Preely survey om serier", dokumenteret 2026-11-16. Samme dag godkendte brugeren offentliggørelse i PCS uden interne links og id'er. Originalkilderne er ikke offentligt tilgængelige.
+
 ## 2026-11-12: Tre spørgsmål danner grundlag for survey
 - **Kontekst:** Undersøgelse af, hvilke informationselementer der hjælper brugerne med at afkode relevans.
 - **Beslutning:** Surveyet skal arbejde videre med orientering (hvad brugerne lægger mærke til), videnshuller (hvad de mangler) og kontekst (om behovet varierer mellem fx fiktion og underholdning).

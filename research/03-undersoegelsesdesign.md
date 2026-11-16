@@ -1,5 +1,11 @@
 # Undersøgelsesdesign
 
+## Ny surveykladde: serier og brugerrejser
+
+[Serier: behov og brugerrejser](programside-serier-survey.md) dokumenterer den oprettede Preely-kladde fra 2026-11-16. Den undersøger ét konkret serierelateret besøg med eller uden programside og bruger ingen screenshots. Den omfatter surveytekst, screening, forgreninger og et rammeværk v1.
+
+Kladden er ikke udsendt og indeholder ingen researchfund. Det tidligere billedbaserede script nedenfor bevares. Den nye retning er valgt af brugeren; afstemning med PM og UX om det samlede forløb er ikke dokumenteret. Se [beslutning 2026-11-16](../context/beslutninger.md).
+
 ## Metode
 [udfyld: fx moderede usability-tests + korte interviews, X deltagere, remote/fysisk]
 
